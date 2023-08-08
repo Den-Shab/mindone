@@ -110,7 +110,7 @@ setup(
     },
     description=get_description(),
     license="Apache 2.0",
-    packages=find_packages(include=["examples", "tests"]),
+    packages=find_packages(include=["examples.*", "mindone.*", "tests.*"]),
     include_package_data=True,
     cmdclass={
         "egg_info": EggInfo,
