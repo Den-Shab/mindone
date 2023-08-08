@@ -121,6 +121,7 @@ setup(
         # 'requests',
         # 'datasets',
         # 'tokenizers'
-    ]
+    ],
+    classifiers=["License :: OSI Approved :: Apache Software License"], 
 )
 print(find_packages())
