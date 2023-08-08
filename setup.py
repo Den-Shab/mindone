@@ -95,7 +95,7 @@ class BuildPy(build_py):
 
     def run(self):
         super().run()
-        mindarmour_dir = os.path.join(pkg_dir, "lib", "mindone")
+        mindarmour_dir = os.path.join(pkg_dir, "lib", "mindone", "examples")
         update_permissions(mindarmour_dir)
 
 
