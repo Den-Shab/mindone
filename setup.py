@@ -110,7 +110,7 @@ setup(
     },
     description=get_description(),
     license="Apache 2.0",
-    packages=find_packages(),
+    packages=find_packages(include=["examples", "tests"]),
     include_package_data=True,
     package_data={"": ["**/*.cu", "**/*.cpp", "**/*.cuh", "**/*.h", "**/*.pyx"]},
     cmdclass={
